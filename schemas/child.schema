@@ -4,3 +4,5 @@ create_table "child", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=u
   t.bigint "parent_id"
   t.index ["parent_id"], name: "par_ind"
 end
+create_table "parent", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+end

@@ -2,5 +2,4 @@
 # vi: set ft=ruby :
 require 'articles.schema'
 require 'child.schema'
-require 'parent.schema'
 require 'user_comments.schema'
